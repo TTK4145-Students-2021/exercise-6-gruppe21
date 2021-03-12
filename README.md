@@ -12,7 +12,9 @@ The reason for choosing "hardest" / "least clear" (instead of "the one it makes 
 Here are the considerations you should reflect upon:
 
  - Before designing anything - why did you choose this module?
+   synchronizing.
    - Why do you expect it to be hard, or what is currently unclear?
+    How the communication should work and how we can handle fault/packet loss.
    - If things seem quite clear *now*, mentally time-travel back to when they were not: what was the last piece to fall in place?
  - What does this module do?
    - What are its outputs?
